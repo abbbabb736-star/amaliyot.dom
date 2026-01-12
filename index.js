@@ -13,14 +13,14 @@ let winCombos = [
   [2, 4, 6],
 ];
 
-cells.forEach((box, index) => {
+cells.forEach((box) => {
   box.addEventListener("click", () => {
     if (box.textContent !== "") return;
 
     box.textContent = currentPlayer;
 
     if (checkWin()) {
-      status.textContent = currentPlayer + " Yutding ukaaaaaaaaa ";
+      status.textContent = currentPlayer + "   afsuski yutdi  ";
       disableBoard();
       return;
     }

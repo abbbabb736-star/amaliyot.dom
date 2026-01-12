@@ -1,7 +1,7 @@
-body {
+.container {
+  margin: 0 auto;
   text-align: center;
 }
-
 .board {
   width: 300px;
   margin: 0 auto;
@@ -9,9 +9,6 @@ body {
   grid-template-columns: repeat(3, 1fr);
 }
 
-.status{
-    color: aqua;
-}
 .box {
   width: 100px;
   height: 100px;
@@ -20,7 +17,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
 }
 
 .box:hover {
